@@ -1,6 +1,6 @@
-package com.example.composetutorial
+package com.example.composetutorial.screens.login
 
-import android.graphics.fonts.Font
+import android.content.Intent
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -20,9 +20,10 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.example.composetutorial.screens.main.MainActivity
 import com.example.composetutorial.ui.theme.ComposeTutorialTheme
 
-class MainActivity : ComponentActivity() {
+class LoginActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
@@ -129,7 +130,7 @@ class MainActivity : ComponentActivity() {
             )
 
             OutlinedButton(
-                onClick = { },
+                onClick = { navigateToMain()},
                 modifier = Modifier
                     .fillMaxWidth()
                     .padding(top = 10.dp)
@@ -138,5 +139,9 @@ class MainActivity : ComponentActivity() {
             }
             
         }
+    }
+
+    private fun navigateToMain() {
+        startActivity(Intent(this, MainActivity::class.java))
     }
 }
