@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">ComposeTutorial</string>
+    <string name="pass_label">Password</string>
+    <string name="login">Login</string>
+    <string name="pass_placeholder">enter password</string>
+    <string name="user_placeholder">enter username</string>
+    <string name="user_name">Username</string>
 </resources>
