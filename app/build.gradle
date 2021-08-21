@@ -98,4 +98,7 @@ dependencies {
 
     //hilt viewmodel
     implementation 'androidx.hilt:hilt-lifecycle-viewmodel:1.0.0-alpha03'
+
+    //Navigation
+    implementation "androidx.navigation:navigation-compose:2.4.0-alpha06"
 }

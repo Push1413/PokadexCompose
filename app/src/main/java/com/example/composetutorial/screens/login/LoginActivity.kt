@@ -4,7 +4,6 @@ import android.content.Intent
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.material.*
 import androidx.compose.material.MaterialTheme.colors
@@ -26,7 +25,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.composetutorial.R
-import com.example.composetutorial.screens.main.MainActivity
+import com.example.composetutorial.screens.home.MainActivity
 import com.example.composetutorial.ui.theme.ComposeTutorialTheme
 
 class LoginActivity : ComponentActivity() {

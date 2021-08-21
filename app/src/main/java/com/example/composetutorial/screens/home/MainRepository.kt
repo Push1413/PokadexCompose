@@ -1,4 +1,4 @@
-package com.example.composetutorial.screens.main
+package com.example.composetutorial.screens.home
 
 import com.example.composetutorial.data.Post
 import com.example.composetutorial.retrofit.ApiService
